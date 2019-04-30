@@ -3,4 +3,8 @@ Uses Edit Distance to find the "in-between" string of two inputs
 
 **example**
 
-gen2.mix('cat','gato') #prints 'cato','gat'
+out = gen2.mix('cat','gato') #out = ['cato','gat']
+
+for el in out :
+
+    print(el)
